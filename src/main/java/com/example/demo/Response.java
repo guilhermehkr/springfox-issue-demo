@@ -6,8 +6,8 @@ import io.swagger.annotations.ApiModelProperty;
 import org.immutables.value.Value;
 
 @Value.Immutable
-@JsonDeserialize(as = ImmutableRecommendationsResponse.class)
-@JsonSerialize(as = ImmutableRecommendationsResponse.class)
+@JsonDeserialize(as = ImmutableResponse.class)
+@JsonSerialize(as = ImmutableResponse.class)
 @Value.Style(
         forceJacksonIgnoreFields = true,
         validationMethod = Value.Style.ValidationMethod.VALIDATION_API,
